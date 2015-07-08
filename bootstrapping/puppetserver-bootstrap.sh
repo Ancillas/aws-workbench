@@ -15,7 +15,7 @@ else
 fi 
 
 echo "Updating apt cache"
-#sudo apt-get update
+sudo apt-get update
 
 if [ -z "`dpkg -l | grep puppetserver`" ]; then
     echo "Installing puppetserver"
